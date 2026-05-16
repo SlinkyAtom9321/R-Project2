@@ -1,8 +1,9 @@
 #Tugas kompstat
 
-data()
-data("mtcars")
+data() # menunjukan beberapa data yang bisa digunakan
+data("mtcars") # menyimpan data mtcars
 
-summary(mtcars$mpg)
+# disini saya menambahkan beberapa komentar
+summary(mtcars$mpg) # ini stat deskriptif data mpg 
 
-hist(mtcars$mpg)
+hist(mtcars$mpg) #ini buat tabel hist
